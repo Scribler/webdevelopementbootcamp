@@ -1,0 +1,1 @@
+console.log('class project, hello world');
