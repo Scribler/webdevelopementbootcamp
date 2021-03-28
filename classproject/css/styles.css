@@ -44,6 +44,10 @@ header {
 .site-heading {
     color: #330500;
 }
+#headshot {
+    border-radius: 50%;
+    border: 3px solid black;
+}
 
 
 

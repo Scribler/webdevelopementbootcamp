@@ -8,3 +8,8 @@ html {
 h1 {
     color: #353535;
 }
+
+.headshot {
+    height: 300px;
+    width: auto;
+}
