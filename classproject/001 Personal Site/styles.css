@@ -14,4 +14,21 @@ h1 {
     width: auto;
 }
 
-/* this is a test  */
+table {
+    border-collapse: collapse;
+    cellspacing: 50px;
+}
+
+thead {
+    background-color: indianred;
+}
+td:first-child {
+    padding-right: 20px;
+}
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+.aboutme {
+    max-width: 1200px;
+}
