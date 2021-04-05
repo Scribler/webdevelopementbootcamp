@@ -1,0 +1,69 @@
+/*   */
+/* Colors */
+/*   */
+
+
+
+/*   */
+/* Universal Styles */
+/*   */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+} */
+html, body {
+    height: 100%;
+}
+html {
+    background-color: #f5f1ed;
+}
+h1 {
+    color: blue;
+}
+
+
+
+/*   */
+/* Sections General */
+/*   */
+
+
+
+/*   */
+/* TABLES */
+/*   */
+.table-general {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+}
+
+.sport {
+    background-color: teal;
+}
+.dualsport {
+    background-color: red;
+}
+.standard {
+    background-color: yellow;
+}
+
+
+
+
+
+/*   */
+/* FORMS */
+/*   */
+
+.form-email {
+    background-color: tan;
+}
+
+
+
+

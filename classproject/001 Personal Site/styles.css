@@ -1,4 +1,12 @@
-/* colors */
+/* colors 
+BACKGROUND
+    background-color: lightgray;
+h1
+    color: #353535;
+
+
+
+*/
 
 
 /* Universal Themes */
@@ -7,27 +15,53 @@ html, body {
 }
 html {
     background-color: lightgray;
+    text-align: center;
 }
 
 h1 {
     color: #353535;
 }
-
+h5 {
+    color: red;
+}
+/* top bar */
+.top-bar {
+    display: flex;
+    flex-direction: row;
+}
 .headshot {
-    height: 300px;
+    height: 100px;
     width: auto;
+    float: left;
+}
+nav {
+    justify-content: flex-end;
+}
+li {
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+.top-bar_nav {
+    justify-self: flex-end;
 }
 
-table {
+.table-general {
     border-collapse: collapse;
+    border-spacing: 10;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+td {
+    padding: 3px;
 }
 
 thead {
     background-color: indianred;
 }
-td:first-child {
-    padding-right: 20px;
-}
+
+
 tr:nth-child(even) {
     background-color: grey;
 }

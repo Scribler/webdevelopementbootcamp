@@ -9,20 +9,26 @@
     </head>
     <body>
         <header>
-            <table>
-                <tr>
-                    <td>
-                        <img class="headshot" src="imgs/circleme.png" alt="Steven profile picture">
-                    </td>
-                    <td class="aboutme">
-                        <h1>Steven McIntyre</h1>
+            <div class="top-bar">
+                <div class="top-bar_name">
+                    <img class="headshot" src="../imgs/circleme.png" alt="Steven profile picture">
+                    <h1>Steven McIntyre</h1>
+                </div>
+                <nav class="top-bar_nav">
+                    <ul>
+                        <li>Work Examples</li>
+                        <li>Pricing / Get a Quote</li>
+                        <li>About Me</li>
+                        <li>Blog</li>
+                        <li>Contact Me</li>
+                    </ul>
+                </nav>
+            </div>
+
+
                             <p><em>Aspiring Web Developer</em></p>
                             <p> I am a student of <em>web developement</em>.  I currently work in customer Service.  I love spending time with friends, going on adventures, motorcycles, and studying philosophy. 
                             </p>
-                    </td>
-                </tr>
-            </table>
-
         </header>
     <hr>
         <h3>Education</h3>
@@ -33,71 +39,59 @@
             </ul>
     <hr>
         <h3>Work Experience</h3>
-        <table>
-
-        </table>
-    <hr>
-        <h3>Work Experience</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2016-2021</td>
-                    <td>Customer Service Representative</td>
-                </tr>
-                <tr>
-                    <td>2020 - 2021</td>
-                    <td>Web Developement Student</td>
-                </tr>
-                <tr>
-                    <td>2021 - Present</td>
-                    <td>Test Entry</td>
-                </tr>
-                <tr>
-                    <td>2021 - Present</td>
-                    <td>Test Entry</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Footer</td>
-                </tr>
-            </tfoot>
-        </table>
+            <table class="table-general">
+                <thead>
+                    <tr>
+                        <th>Dates</th>
+                        <th>Work</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2016-2021</td>
+                        <td>Customer Service Representative</td>
+                    </tr>
+                    <tr>
+                        <td>2020 - 2021</td>
+                        <td>Web Developement Student</td>
+                    </tr>
+                </tbody>
+            </table>
     <hr>
         <h3>Skills</h3>
-        <table>
-            <thead>
-                <tr>
-                    <td>SKILL</td>
-                    <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
-                    <td>SKILL</td>
-                    <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            <table class="table-general">
+                <tr >
+                    <td>
+                        <table class="table-general">
+                            <tr> 
+                                <td>HTML</td>
+                                <td>⭐⭐⭐☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>⭐⭐⭐☆☆</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table  class="table-general"> 
+                            <tr> 
+                                <td>SASS</td>
+                                <td>⭐⭐☆☆☆</td>
+                            </tr>
+                            <tr> 
+                                <td>Javascript</td>
+                                <td>⭐☆☆☆☆</td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>&#11088;&#11088;&#11088;</td>
-                    <td>SASS</td>
-                    <td>&#11088;&#11088;</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>&#11088;&#11088;</td>
-                    <td>Javascript</td>
-                    <td>&#11088;&#11088;</td>
-                </tr>
-            </tbody>
-        </table>
+            </table>
     <hr>
-        <h3><a href="myhobbies.html">My Hobbies</a></h3>
-        <h3><a href="contact.html"</a>Contact Me</a></h3>
+        <div>
+            <h3><a href="myhobbies.html">My Hobbies</a></h3>
+            <h3><a href="contact.html"</a>Contact Me</a></h3>
+        </div>
     <hr>
         <p>Return to <a href="../index.html"><strong>main page</strong></a></p>
         <script src="scripts.js"></script>
