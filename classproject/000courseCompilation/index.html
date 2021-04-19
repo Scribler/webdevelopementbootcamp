@@ -36,22 +36,27 @@
                         <tr>
                             <th class="sport">SPORT</th>
                             <td>CBR250R</td>
+                            <td>HONDA</td>
                         </tr>
                         <tr>
                             <th class="sport">SPORT</th>
                             <td>CBR300R</td>
+                            <td>HONDA</td>
                         </tr>
                         <tr> 
                             <th class="sport">SPORT</th>
                             <td>NINJA 250</td>
+                            <td>KAWASAKI</td>
                         </tr>
                         <tr> 
                             <th class="sport">SPORT</th>
                             <td>NINJA 300</td>
+                            <td>KAWASAKI</td>
                         </tr>
                         <tr> 
                             <th class="sport">SPORT</th>
                             <td>NINJA 400</td>
+                            <td>KAWASAKI</td>
                         </tr>
                         <tr>
                             <th class="dualsport">DUAL SPORT</th>
@@ -95,10 +100,12 @@
                         <tr>
                             <th class="standard">STANDARD</th>
                             <td>CBR300R</td>
+                            <td>HONDA</td>
                         </tr>
                         <tr>
                             <th class="standard">STANDARD</th>
                             <td>Z400</td>
+                            <td>KAWASAKI</td>
                         </tr>
 
                     </tbody>
@@ -110,28 +117,64 @@
                 <br>
                 <div class="form form-email">
                     <h4>Email Form</h4>
+                        <!-- set 'enctype' or your text won't display properly in the email -->
                         <form action="mailto:info@myemail.com" method="post" enctype="text/plain">
                         <br>
                             <label for="name">Name:</label>
                             <input type="text" name="name" id="name"> 
                         <br>
                             <label for="email">Email:</label>
-                            <input type="email" name="email" id="email">
+                            <!-- input type set to email runs checks automatically to make sure it is a propper email address -->
+                            <input type="email" name="yourEmail" id="email">
                         <br>
-                            <label for="text">Your Message:</label>
+                            <label for="text" name="yourMessage">Your Message:</label>
                         <br>
                             <textarea name="text" id="text" cols="30" rows="10"></textarea>
                         <br>
                             <input type="submit" name="submit" id="submit" value="submit">
                         </form>
-                </div>
-        <hr>
-                <div class="form form-signup">
-                    <h4>Sign Up Form</h4>
-                    <form action="">
-                        <label for="color">Choose your background color:</label>
-                        <input type="color" name="color" id="color" value="ff0000">
+                    </div>
                     <br>
+                <div class="form form-signup">
+                    <h4>Form Options</h4>
+                    <form action="">
+                        <label for="color">Choose a Color:</label>
+                        <input type="color" name="color" id="color" value="ff0000">
+                    <hr>
+                        <label for="scrollMenu">Scroll Menu</label>
+                        <br>
+                        <select multiple name="scrollMenu" size="5">
+                        <!-- use "size" to set the number of visible options in the scroll menu -->
+                            <option value="crf250l">CRF-250L</option>
+                            <option value="klx250x">KLX-250S</option>
+                            <option value="gsx250r">GSX-250r</option>
+                            <option value="yzf-r3">YZF-R3</option>
+                            <option value="ninja300">NINJA300</option>
+                            <option value="ninja400">NINJA 400</option>
+                        </select>
+                    <hr>
+                        <label for="name">Select Name(drop-down menu</label>
+                        <select name="name" id="name">
+                            <option value="bob">Bob</option>
+                            <option value="sam">Sam</option>
+                            <option value="dillon">Dillon</option>
+                        </select>
+                    <hr>
+                        <fieldset disabled>
+                            <!-- <h5>This element is currently dissabled</h5>
+                            <p>If you make a selection dissable certain other selections you could make a complex menu</p>
+                            <p>For example: you only have certain color choices on some bikes, so when you choose the bike, the unavailable color choices will be dissabled</p> -->
+                            <legend>Choose your Favorite Color</legend>
+                            <label for="purple">Purple</label>
+                            <input type="radio" name="colors" id="purple">
+                            <br>
+                            <label for="green">Green</label>
+                            <input type="radio" name="colors" id="green">
+                            <br>
+                            <label for="yellow">Yellow</label>
+                            <input type="radio" name="colors" id="yellow">
+                        </fieldset>
+
 
                     </form>
                 </div>
