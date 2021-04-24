@@ -14,19 +14,22 @@ html, body {
     height: 100%;
 }
 html {
-    background-color: lightgray;
+    background-color: #f3eeee;
     text-align: center;
 }
 
 h1 {
     color: #353535;
 }
+header {
+    display: inline-block;
+}
 h5 {
     color: red;
 }
 /* top bar */
 .top-bar {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
 }
 .headshot {
@@ -34,16 +37,16 @@ h5 {
     width: auto;
     float: left;
 }
-nav {
-    justify-content: flex-end;
+ul {
+    margin: 0 auto;
 }
 li {
-    float: right;
+    float: left;
     list-style: none;
     padding: 10px;
 }
 .top-bar_nav {
-    justify-self: flex-end;
+    justify-self: center;
 }
 
 .table-general {
