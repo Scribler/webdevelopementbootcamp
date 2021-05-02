@@ -41,12 +41,35 @@ h1 {
   font-weight: bold;
 }
 
+.white-box {
+  background-color: white;
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.content {
+  padding: 5px;
+}
+
 /*   */
 /* TABLES */
 /*   */
+h3 {
+  text-align: center;
+  color: red;
+  font-size: 60px;
+  margin: 30px 0;
+}
+
 .table-general {
   border: 1px solid black;
   border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.tables-content {
+  background-color: thistle;
 }
 
 td {
@@ -68,14 +91,53 @@ td {
 /*   */
 /* FORMS */
 /*   */
-.form {
-  background-color: white;
-  width: 700px;
-  margin: 0 auto;
-  padding: 10px;
+.forms {
+  background-color: honeydew;
 }
 
-option:hover {
+/*   */
+/* BACON */
+/*   */
+#heading {
+  color: blue;
+}
+
+.bacon {
+  background-color: coral;
+}
+
+.bacon h1 {
+  color: red;
+  font-size: 100px;
+}
+
+.bacon h1:hover {
+  color: green;
+}
+
+.bacon-white-box {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.igood {
+  background-color: green;
+}
+
+.ibad {
   background-color: red;
+}
+
+.eggplant {
+  width: 150px;
+  height: auto;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+img:hover {
+  background-color: olivedrab;
 }
 /*# sourceMappingURL=styles.css.map */
