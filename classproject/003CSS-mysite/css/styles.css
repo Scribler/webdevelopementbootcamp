@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.introduction {
+  background-color: paleturquoise;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  background-color: aquamarine;
+  height: 300px;
+  width: 300px;
+}
+
+.bottom-container {
+  background-color: khaki;
+  height: 300px;
+  width: 300px;
+}
+/*# sourceMappingURL=styles.css.map */

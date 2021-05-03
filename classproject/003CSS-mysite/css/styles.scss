@@ -1,0 +1,41 @@
+//
+// Colors
+//
+
+// khaki;
+// aquamarine;
+
+//
+// Universal Styles
+//
+html, body {
+    margin: 0;
+}
+h1 {
+    margin-top: 0;
+}
+
+
+//
+// INTRODUCTION
+//
+.introduction {
+    background-color: paleturquoise;
+}
+.pro {
+    text-decoration: underline;
+}
+//
+// BOTTOM CONTAINERS
+//
+.middle-container {
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+}
+
+.bottom-container {
+    background-color: khaki;
+    height: 300px;
+    width: 300px;
+}
