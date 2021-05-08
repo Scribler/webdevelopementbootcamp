@@ -24,6 +24,9 @@ h1 {
 }
 .pro {
     text-decoration: underline;
+    // relative position is essentially adjusting the margin ;)
+    // position: relative;
+    // bottom: 10px;
 }
 //
 // BOTTOM CONTAINERS
@@ -38,4 +41,13 @@ h1 {
     background-color: khaki;
     height: 300px;
     width: 300px;
+}
+
+.a {
+    display: inline-block;
+    width: 200px;
+    background-color: lightcyan;
+}
+.b {
+    // display: block;
 }

@@ -25,4 +25,10 @@ h1 {
   height: 300px;
   width: 300px;
 }
+
+.a {
+  display: inline-block;
+  width: 200px;
+  background-color: lightcyan;
+}
 /*# sourceMappingURL=styles.css.map */
