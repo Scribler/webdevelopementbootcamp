@@ -8,44 +8,45 @@ h1 {
 
 .introduction {
   background-color: paleturquoise;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top {
+  position: relative;
+  z-index: 2;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.top-cloud {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 65%;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  top: 400px;
+  left: 25%;
+}
+
 .middle-container {
-  display: inline-block;
   background-color: aquamarine;
   height: 300px;
   width: 300px;
-  position: relative;
 }
 
 .bottom-container {
-  display: inline-block;
   background-color: khaki;
   height: 300px;
   width: 300px;
-  position: relative;
-}
-
-.bottomest-container {
-  display: inline-block;
-  background-color: violet;
-  height: 300px;
-  width: 300px;
-  position: relative;
-}
-
-.bottomest-container:active {
-  position: absolute;
-  top: 200px;
-}
-
-.a {
-  display: inline-block;
-  width: 200px;
-  background-color: lightcyan;
 }
 /*# sourceMappingURL=styles.css.map */

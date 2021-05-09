@@ -21,47 +21,65 @@ h1 {
 //
 .introduction {
     background-color: paleturquoise;
+    text-align: center;
+    position: relative; // position of this container must be relative otherwise you can't use relative positioning on the elements within it.
+    padding-top: 100px
+}
+.top {
+    position: relative;
+    z-index: 2;
 }
 .pro {
     text-decoration: underline;
-    // relative position is essentially adjusting the margin ;)
-    // position: relative;
-    // bottom: 10px;
 }
+
+.top-cloud {
+    position: absolute; // make sure it's container is set to relative
+    width: 220px;
+    height: auto;
+    left: 65%;
+    top: 20px;
+}
+
+.bottom-cloud {
+    position: absolute; // make sure it's container is set to relative
+
+    width: 220px;
+    height: auto;
+    top: 400px;
+    left: 25%;
+}
+// INLINE ELEMENTS ***CAN*** DISPLAY INLINE AND YOU ***CAN'T*** CHANGE THEIR DIMENTIONS
+// .i {
+//     display: inline;
+//     width: 500px;
+//     background-color: green;
+// }
+// BLOCK ELEMENTS ***CAN'T*** DISPLAY INLINE AND YOU ***CAN*** CHANGE THEIR DIMENTIONS
+// .b {
+//     display: block;
+//     width: 500px;
+//     background-color: greenyellow;
+// }
+// INLINE-BLOCK ELEMENTS ***CAN*** DISPLAY INLINE AND YOU ***CAN*** CHANGE THEIR DIMENTIONS
+// .ib {
+//     display: inline-block;
+//     width: 500px;
+//     background-color: yellow;
+// }
+
+
 //
 // BOTTOM CONTAINERS
 //
 .middle-container {
-    display: inline-block;
     background-color: aquamarine;
     height: 300px;
     width: 300px;
-    position: relative;
 }
 
 .bottom-container {
-    display: inline-block;
     background-color: khaki;
     height: 300px;
     width: 300px;
-    position: relative;
-}
-.bottomest-container {
-    display: inline-block;
-    background-color: violet;
-    height: 300px;
-    width: 300px;
-    position: relative;
-}
-.bottomest-container:active {
-    position: absolute;
-    top: 200px;
-}
-.a {
-    display: inline-block;
-    width: 200px;
-    background-color: lightcyan;
-}
-.b {
-    // display: block;
 }
