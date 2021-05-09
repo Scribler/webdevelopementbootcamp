@@ -1,21 +1,34 @@
 html, body {
   margin: 0;
+  font-family: Merriweather, serif;
+  background-color: #dfdfdf;
 }
 
 h1 {
   margin-top: 0;
 }
 
+h2, h3 {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
 .introduction {
-  background-color: paleturquoise;
+  background: linear-gradient(#e7f9fa, #cef7f7);
   text-align: center;
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
+}
+
+.name {
+  font-family: Sacramento, cursive, serif;
+  font-size: 100px;
 }
 
 .top {
   position: relative;
   z-index: 2;
+  margin-bottom: 110px;
 }
 
 .pro {
@@ -24,29 +37,42 @@ h1 {
 
 .top-cloud {
   position: absolute;
-  width: 220px;
   height: auto;
   left: 65%;
-  top: 20px;
+  top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
   width: 220px;
   height: auto;
-  top: 400px;
+  bottom: 320px;
   left: 25%;
 }
 
 .middle-container {
-  background-color: aquamarine;
+  text-align: center;
+}
+
+.profile {
+  position: relative;
+  padding: 20px;
+}
+
+.profile-pic {
   height: 300px;
-  width: 300px;
+}
+
+.napoleon-dancing {
+  height: 250px;
+  width: auto;
+}
+
+.skill-row {
+  margin-top: 100px;
 }
 
 .bottom-container {
-  background-color: khaki;
-  height: 300px;
-  width: 300px;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

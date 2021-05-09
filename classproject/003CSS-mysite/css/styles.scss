@@ -2,51 +2,62 @@
 // Colors
 //
 
-// khaki;
-// aquamarine;
+// background-color: rgb(223, 223, 223);
+// background: linear-gradient(rgb(231, 249, 250), rgb(206, 247, 247));
 
 //
 // Universal Styles
 //
 html, body {
     margin: 0;
+    font-family: Merriweather, serif;
+    background-color: rgb(223, 223, 223);
 }
+
 h1 {
     margin-top: 0;
 }
 
-
+h2, h3 {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
 //
 // INTRODUCTION
 //
 .introduction {
-    background-color: paleturquoise;
+    background: linear-gradient(rgb(231, 249, 250), rgb(206, 247, 247));
     text-align: center;
     position: relative; // position of this container must be relative otherwise you can't use relative positioning on the elements within it.
-    padding-top: 100px
+    padding-top: 200px
+}
+
+.name {
+    font-family: Sacramento, cursive, serif;
+    font-size: 100px;
 }
 .top {
     position: relative;
     z-index: 2;
+    margin-bottom: 110px;
 }
+
 .pro {
     text-decoration: underline;
 }
 
 .top-cloud {
     position: absolute; // make sure it's container is set to relative
-    width: 220px;
     height: auto;
     left: 65%;
-    top: 20px;
+    top: 50px;
 }
 
 .bottom-cloud {
     position: absolute; // make sure it's container is set to relative
-
     width: 220px;
     height: auto;
-    top: 400px;
+    bottom: 320px;
     left: 25%;
 }
 // INLINE ELEMENTS ***CAN*** DISPLAY INLINE AND YOU ***CAN'T*** CHANGE THEIR DIMENTIONS
@@ -70,16 +81,31 @@ h1 {
 
 
 //
-// BOTTOM CONTAINERS
+// MIDDLE CONTAINER
 //
 .middle-container {
-    background-color: aquamarine;
-    height: 300px;
-    width: 300px;
+    text-align: center;
 }
 
-.bottom-container {
-    background-color: khaki;
+.profile {
+    position: relative;
+    padding: 20px;
+}
+
+.profile-pic {
     height: 300px;
-    width: 300px;
+}
+
+.napoleon-dancing {
+    height: 250px;
+    width: auto
+}
+.skill-row {
+    margin-top: 100px;
+}
+//
+// BOTTOM CONTAINER
+//
+.bottom-container {
+    text-align: center;
 }
