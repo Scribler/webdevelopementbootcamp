@@ -13,12 +13,21 @@ html, body {
     font-family: Merriweather, serif;
     background-color: rgb(223, 223, 223);
 }
-
+// 16px = 100% = 1em (used to be the width of the capital letter 'M'.
 h1 {
     margin-top: 0;
+    // font-size: 562%;
+    font-size: 5.62rem; // use 'rem' instead of 'em'
+                        // em builds off parent font sizes
+                        // rem always references the root size and is therefore far more reliable and less likely to do unexpected things.
 }
 
-h2, h3 {
+h2{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+h3{
     font-family: Montserrat, sans-serif;
     text-align: center;
 }
@@ -34,7 +43,9 @@ h2, h3 {
 
 .name {
     font-family: Sacramento, cursive, serif;
-    font-size: 100px;
+}
+.intro {
+    font-size: 30px;
 }
 .top {
     position: relative;
