@@ -8,12 +8,21 @@
 //
 // Universal Styles
 //
+* {
+    line-height: 2;
+}
 html, body {
     margin: 0;
     font-family: Merriweather, serif;
     background-color: rgb(223, 223, 223);
 }
 // 16px = 100% = 1em (used to be the width of the capital letter 'M'.
+h1, h2 {
+    color: #66BFBF;
+}
+h3, a {
+    color: #11999E;
+}
 h1 {
     margin-top: 0;
     // font-size: 562%;
@@ -44,9 +53,11 @@ h3{
 
 .name {
     font-family: Sacramento, cursive, serif;
+    margin: 50px auto 0 auto;
 }
 .intro {
     font-size: 30px;
+    font-weight: normal;
 }
 .top {
     position: relative;
