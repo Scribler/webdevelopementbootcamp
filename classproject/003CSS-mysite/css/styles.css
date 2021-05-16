@@ -96,6 +96,11 @@ h3 {
   margin-top: 100px;
 }
 
+.skill-row img {
+  height: 250px;
+  width: 250px;
+}
+
 .bottom-container {
   text-align: center;
 }
