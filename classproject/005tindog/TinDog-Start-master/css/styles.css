@@ -1,16 +1,16 @@
 section {
   background-color: darkgray;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.red {
-  background-color: red;
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
-.blue {
-  background-color: yellow;
-}
-
-.border {
-  border: black 1px solid;
+#title {
+  background-color: #ff4c68;
 }
 /*# sourceMappingURL=styles.css.map */

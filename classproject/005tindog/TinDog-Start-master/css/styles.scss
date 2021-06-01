@@ -1,15 +1,41 @@
+// .red {
+//     background-color: red;
+// }
+
+// .blue {
+//     background-color: yellow;
+// }
+
+// .orange {
+//     background-color: orange;
+// }
+
+// .light-gray {
+//     background-color: lightgray;
+// }
+
+// .border {
+//     border: black 1px solid;
+// }
+
+//
+// GENERAL STYLES
+//
 section {
     background-color: darkgray;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.red {
-    background-color: red;
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
-.blue {
-    background-color: yellow;
-}
-
-.border {
-    border: black 1px solid;
+//
+// title bar
+//
+#title {
+    background-color: #ff4c68;
 }
