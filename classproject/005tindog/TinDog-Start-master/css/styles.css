@@ -48,4 +48,31 @@ section {
   width: 60%;
   transform: rotate(25deg);
 }
+
+#features {
+  background-color: whitesmoke;
+}
+
+.feature {
+  padding-bottom: 30px;
+}
+
+.feature h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding: 40px 0 70px 0;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
 /*# sourceMappingURL=styles.css.map */
