@@ -75,4 +75,24 @@ section {
 .features-icon:hover {
   color: #ff4c68;
 }
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ff4c68;
+}
+
+#pricing {
+  background-color: whitesmoke;
+}
+
+#cta {
+  background-color: #ef8172;
+}
+
+#footer {
+  background-color: #ff4c68;
+}
 /*# sourceMappingURL=styles.css.map */
