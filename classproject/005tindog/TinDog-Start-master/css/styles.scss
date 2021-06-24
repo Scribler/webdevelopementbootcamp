@@ -7,14 +7,20 @@
 }
 
 section {
-    background-color: darkgray;
+    // background-color: darkgray;
+    background-color: whitesmoke;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2.3rem;
+}
 
 
 
@@ -106,22 +112,34 @@ section {
 //
 
 #testimonials {
+    padding: 7% 10%;
     background-color: #ef8172;
+    text-align: center;
+    color: #fff;
 }
 
-
-
-
-
+.testimonial-image {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
 
 //
 // PRESS
 //
 
 #press {
-    background-color: #ff4c68;
+    // background-color: #ff4c68;
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
+.press-logo {
+    width: 15%;
+    // padding: 0 20px;
+    margin: 20px 20px 50px;
+}
 
 
 

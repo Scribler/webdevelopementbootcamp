@@ -1,4 +1,9 @@
 .cont {
   background-color: red;
 }
+
+.changeable {
+  color: white;
+  background-color: black;
+}
 /*# sourceMappingURL=styles.css.map */
