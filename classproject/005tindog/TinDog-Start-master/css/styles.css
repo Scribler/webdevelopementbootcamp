@@ -86,11 +86,14 @@ h2 {
   color: #ff4c68;
 }
 
-#testimonials {
-  padding: 7% 10%;
+#testimonial-carousel {
   background-color: #ef8172;
   text-align: center;
   color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 18%;
 }
 
 .testimonial-image {
@@ -100,14 +103,13 @@ h2 {
 }
 
 .testi {
-  background-color: burlywood;
-  height: 500px;
+  background-color: #ef8172;
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #ff4c68;
   text-align: center;
-  padding-bottom: 3%;
+  padding: 3% 0 1%;
 }
 
 .press-logo {
@@ -117,6 +119,12 @@ h2 {
 
 #pricing {
   background-color: whitesmoke;
+  padding: 7% 10%;
+}
+
+.pricing-header {
+  margin-top: -7%;
+  margin-bottom: 3%;
 }
 
 #cta {

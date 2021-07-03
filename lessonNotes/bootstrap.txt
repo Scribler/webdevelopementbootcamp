@@ -1,0 +1,5 @@
+BOOTSTRAP
+
+> Carousel
+
+- carousel '<' & '>' controls (Be sure to add ' aria-hidden="true" ' to stop screen readers from reading out the arrow keys) [This might be a good idea for the entire sliding section? look into how they are read by screen readers.]
