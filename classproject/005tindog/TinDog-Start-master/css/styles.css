@@ -2,6 +2,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 section {
   background-color: whitesmoke;
 }
@@ -41,6 +45,10 @@ h2 {
   color: whitesmoke;
 }
 
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
 .intro {
   font-size: 3rem;
   line-height: 1.5;
@@ -54,11 +62,14 @@ h2 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 #features {
   background-color: whitesmoke;
   padding: 7% 10%;
+  position: relative;
 }
 
 .feature {
@@ -129,9 +140,51 @@ h2 {
 
 #cta {
   background-color: #ef8172;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#cta .cta-button {
+  margin: 3% 1%;
 }
 
 #footer {
   background-color: #ff4c68;
+  text-align: center;
+  padding: 2%;
+}
+
+#footer p {
+  margin: 0;
+}
+
+.test-div {
+  padding: 50px;
+  background-color: antiquewhite;
+  height: 600px;
+}
+
+.test-box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  position: absolute;
+}
+
+.red {
+  background-color: red;
+  z-index: 1;
+}
+
+.yellow {
+  background-color: yellow;
+  transform: translate(40px, 40px);
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  transform: translate(80px, 80px);
+  z-index: 0;
 }
 /*# sourceMappingURL=styles.css.map */
