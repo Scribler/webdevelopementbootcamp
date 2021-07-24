@@ -231,7 +231,9 @@ h2 {
     border: 1px solid;
     position: absolute;
 }
-
+//
+// TESTING
+//
 .red {
     background-color: red;
     z-index: 1;
@@ -240,6 +242,7 @@ h2 {
 .yellow {
     background-color: yellow;
     transform: translate(40px, 40px);
+    // z-index: 2;
 }
 
 .blue {
