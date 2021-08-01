@@ -10,15 +10,18 @@ section {
   background-color: whitesmoke;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+.intro-heading {
+  font-size: 2rem;
   line-height: 1.5;
-  font-size: 2.3rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
 
 .navbar {
@@ -47,12 +50,6 @@ h2 {
 
 .container-fluid {
   padding: 3% 15% 7%;
-}
-
-.intro {
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
 .download-button {
@@ -163,11 +160,18 @@ h2 {
   text-align: center;
   color: white;
   padding: 10% 15%;
-  font-size: 3rem;
 }
 
 #cta .cta-button {
   margin: 3% 1%;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 3%;
 }
 
 #footer {

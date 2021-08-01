@@ -1,5 +1,5 @@
 //
-// Universal Styles
+// ELEMENT STYLES
 //
 
 * {
@@ -15,17 +15,26 @@ section {
     background-color: whitesmoke;
 }
 
+//
+// HEADINGS
+//
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.intro-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+
+// UNIVERSAL STYLES
+
 .container-fluid {
     padding: 3% 15%;
 }
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    line-height: 1.5;
-    font-size: 2.3rem;
-}
-
 
 
 //
@@ -65,11 +74,6 @@ h2 {
 }
 
 
-.intro {
-    font-size: 2rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
 
 .download-button {
     margin: 5% 3% 5% 0;
@@ -220,11 +224,18 @@ h2 {
     text-align: center;
     color: white;
     padding: 10% 15%;
-    font-size: 3rem;
 
     .cta-button {
         margin: 3% 1%;
     }
+}
+
+.cta-heading {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 3%;
 }
 
 
