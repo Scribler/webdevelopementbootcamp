@@ -66,10 +66,26 @@ h2 {
   right: 30%;
 }
 
+@media (max-width: 1661px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 100%;
+    text-align: center;
+  }
+  .button-group {
+    justify-content: center;
+  }
+}
+
 #features {
   background-color: whitesmoke;
   padding: 7% 10%;
   position: relative;
+}
+
+.button-group {
+  min-width: 593px;
 }
 
 .feature {
