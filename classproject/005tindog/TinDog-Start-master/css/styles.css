@@ -50,13 +50,20 @@ h2 {
 }
 
 .intro {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 .download-button {
   margin: 5% 3% 5% 0;
+  font-size: 1rem;
+}
+
+@media (min-width: 1900px) {
+  .intro {
+    font-size: 3rem;
+  }
 }
 
 .title-image {
@@ -66,15 +73,16 @@ h2 {
   right: 30%;
 }
 
-@media (max-width: 1661px) {
+@media (max-width: 1000px) {
   .title-image {
     position: static;
     transform: rotate(0deg);
-    width: 100%;
-    text-align: center;
   }
   .button-group {
     justify-content: center;
+  }
+  #title {
+    text-align: center;
   }
 }
 
@@ -82,10 +90,6 @@ h2 {
   background-color: whitesmoke;
   padding: 7% 10%;
   position: relative;
-}
-
-.button-group {
-  min-width: 593px;
 }
 
 .feature {
@@ -155,9 +159,11 @@ h2 {
 }
 
 #cta {
-  background-color: #ef8172;
+  background-color: #ff4c68;
   text-align: center;
-  padding-top: 3%;
+  color: white;
+  padding: 10% 15%;
+  font-size: 3rem;
 }
 
 #cta .cta-button {
@@ -165,42 +171,17 @@ h2 {
 }
 
 #footer {
-  background-color: #ff4c68;
+  background-color: whitesmoke;
+  font-size: 60%;
   text-align: center;
-  padding: 2%;
+  padding: 5% 0;
 }
 
 #footer p {
   margin: 0;
 }
 
-.test-div {
-  padding: 50px;
-  background-color: antiquewhite;
-  height: 600px;
-}
-
-.test-box {
-  height: 100px;
-  width: 100px;
-  border: 1px solid;
-  position: absolute;
-}
-
-.red {
-  background-color: red;
-  z-index: 1;
-}
-
-.yellow {
-  background-color: yellow;
-  transform: translate(40px, 40px);
-}
-
-.blue {
-  background-color: blue;
-  color: white;
-  transform: translate(80px, 80px);
-  z-index: 0;
+#footer i {
+  padding: 0 5px;
 }
 /*# sourceMappingURL=styles.css.map */
