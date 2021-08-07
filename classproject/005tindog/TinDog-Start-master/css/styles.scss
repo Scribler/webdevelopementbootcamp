@@ -15,31 +15,50 @@ section {
     background-color: whitesmoke;
 }
 
-//
-// HEADINGS
-//
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
 
-.intro-heading {
-    font-size: 2rem;
+// HEADINGS //
+.big-heading {
+    font-size: 3.5rem;
     line-height: 1.5;
-
 }
 
+.section-heading {
+    font-size: 2.3rem;
+    line-height: 1.5;
+}
+
+.pricing-card-heading {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+
+//
 // UNIVERSAL STYLES
+//
 
 .container-fluid {
     padding: 3% 15%;
 }
 
+br { // same height and magin as 'p'
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
 
 //
 // Nav Bar
 //
+
+.navbar-brand h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -52,12 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     font-size: .9rem;
     font-weight: light;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 //
@@ -73,12 +86,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 15% 7%;
 }
 
-
-
 .download-button {
     margin: 5% 3% 5% 0;
     font-size: 1rem;
 }
+
 @media (min-width: 1900px) {
     .intro {
         font-size: 3rem;
@@ -112,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 //
 // FEATURES
 //
+
 #features {
     background-color: whitesmoke;
     padding: 7% 10%;
@@ -144,10 +157,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff4c68;
 }
 
-
-
-
-
 //
 // TESTIMONIALS
 //
@@ -158,12 +167,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-.carousel-inner {}
-
 .carousel-item {
     padding: 7% 18%;
 }
-
 
 .testimonial-image {
     margin: 20px;
@@ -174,7 +180,6 @@ h1, h2, h3, h4, h5, h6 {
 .testi {
     background-color: #ef8172;
 }
-
 
 //
 // PRESS
@@ -193,10 +198,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 20px 50px;
 }
 
-
-
-
-
 //
 // PRICING
 //
@@ -211,9 +212,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 2%;
 }
 
+.pricing-price {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
 
-
-
+.card-body p, h3 {
+    word-wrap: keep-all;
+}
 
 //
 // CALL TO ACTION
@@ -231,15 +238,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-heading {
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     line-height: 1.5;
     padding-bottom: 3%;
 }
-
-
-
 
 //
 // FOOTER
@@ -254,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     p {
         margin: 0;
     }
+
     i {
         padding: 0 5px;
     }
