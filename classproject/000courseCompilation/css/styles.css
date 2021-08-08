@@ -1,9 +1,53 @@
-.cont {
-  background-color: red;
+html, body {
+  color: #233d4dff;
+  background-color: #e9e3e6ff;
 }
 
-.changeable {
-  color: white;
-  background-color: black;
+.container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#title {
+  background-color: #233d4dff;
+  color: #e9e3e6ff;
+}
+
+#bike-selection-title {
+  padding: 50px 0;
+}
+
+#search-input {
+  margin-bottom: 50px;
+}
+
+.bike-image {
+  display: block;
+  text-align: center;
+  width: 30rem;
+  height: auto;
+  margin: 20px auto;
+  box-shadow: grey 3px 3px;
+  margin-bottom: 73px;
+}
+
+#specifications {
+  background-color: whitesmoke;
+}
+
+.specifications-list {
+  display: inline-block;
+  margin: 20px;
+}
+
+#footer {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#footer p {
+  text-align: center;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=styles.css.map */
