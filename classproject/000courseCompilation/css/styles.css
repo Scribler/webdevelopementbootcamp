@@ -1,4 +1,9 @@
-html, body {
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
   color: #233d4dff;
   background-color: #e9e3e6ff;
 }
@@ -8,9 +13,47 @@ html, body {
   padding: 50px 0;
 }
 
+.hamburger-outer {
+  display: inline-block;
+  overflow: visible;
+  padding: 15px;
+}
+
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+  position: absolute;
+  background-color: #e9e3e6ff;
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 5%;
+  left: 5%;
+  margin-top: -2px;
+}
+
+.hamburger-inner::after, .hamburger-inner::before {
+  content: "";
+  left: 0px;
+}
+
+.hamburger-inner::after {
+  top: 10px;
+}
+
+.hamburger-inner::before {
+  top: -10px;
+}
+
 #title {
   background-color: #233d4dff;
   color: #e9e3e6ff;
+}
+
+#title h1 {
+  display: inline-block;
 }
 
 #bike-selection-title {
@@ -27,8 +70,26 @@ html, body {
   width: 30rem;
   height: auto;
   margin: 20px auto;
-  box-shadow: grey 3px 3px;
+  box-shadow: 10px 10px 4px grey;
   margin-bottom: 73px;
+}
+
+.bike-info-links {
+  display: inline-block;
+  background-color: #ffc533ff;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.bike-info-links:hover {
+  background-color: #ffd874;
+  text-decoration: none;
+  box-shadow: 0px 5px 3px grey;
+}
+
+.bike-info-links:active {
+  background-color: #ffc533ff;
+  box-shadow: none;
 }
 
 #specifications {
@@ -40,8 +101,11 @@ html, body {
   margin: 20px;
 }
 
-#footer {
+#trouble-shooting {
   background-color: whitesmoke;
+}
+
+#footer {
   width: 100%;
   padding: 10px 0;
 }

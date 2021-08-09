@@ -1,116 +1,149 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <title>Moto Maintainer</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <title>Moto Maintainer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- The two links below are for Montserrat fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap" rel="stylesheet">
-    <!-- The two links above are for Montserrat fonts -->
+  <!-- The two links below are for Montserrat fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap"
+    rel="stylesheet">
+  <!-- The two links above are for Montserrat fonts -->
 
-    <!-- The two links below are for Ubuntu fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <!-- The two links above are for Ubuntu fonts -->
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+  <!-- The two links below are for Ubuntu fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- The two links above are for Ubuntu fonts -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-  <body>
-    <section id="title">
-      <div class="container-fluid title-container container">
-        <h1>Moto Maintainer</h1>
+<body>
+  <section id="title">
+    <div class="container-fluid title-container container">
+      <div class="hamburger-outer">
+        <div class="hamburger-inner"></div>
       </div>
+      <h1>Moto Maintainer</h1>
+    </div>
 
-    </section>
+  </section>
 
 
-    <section id="bike-selection">
-      <div class="container-fluid title-container container">
-        <form action="search">
-          <h3 id="bike-selection-title">Enter your Motorcycle Name and Year Here</h4>
+  <section id="bike-selection">
+    <div class="container-fluid title-container container">
+      <form action="search">
+        <h3 id="bike-selection-title">Enter your Motorcycle Name and Year Here</h4>
           <input id="search-input" type="search" placeholder="Search...">
           <img class="bike-image" src="images/r3.webp" alt="motorcycle">
-        </form>
+      </form>
+      <a href="#specifications" class="bike-info-links">Specifications</a>
+      <a href="#maintenance-schedule" class="bike-info-links">Maintenance Schedule</a>
+      <a href="#trouble-shooting" class="bike-info-links">Trouble Shooting</a>
+    </div>
+
+  </section>
+
+  <section id="specifications">
+    <div class="container-fluid specifications-container container">
+      <h2>Specifications</h2>
+
+      <div id="engine" class="specifications-list">
+        <h3>Engine</h3>
+        <ul>
+          <li>Displacement: 300cc</li>
+          <li>Horsepower: 35hp</li>
+          <li>Oil Capacity: ?</li>
+        </ul>
       </div>
 
-    </section>
+      <div id="suspension" class="specifications-list">
+        <h3>Suspension</h3>
+        <ul>
+          <li>Front-Shock: Olihns</li>
+          <li>Rear-Shock: misc</li>
+          <li>Sag Setting: 3cm</li>
+        </ul>
+      </div>
 
-    <section id="specifications">
-      <div class="container-fluid specifications-container container">
-        <h2>Specifications</h2>
-
-        <div id="engine" class="specifications-list">
-          <h3>Engine</h3>
-          <ul>
-            <li>Displacement: 300cc</li>
-            <li>Horsepower: 35hp</li>
-            <li>Oil Capacity: ?</li>
-          </ul>
-        </div>
-
-        <div id="suspension" class="specifications-list">
-          <h3>Suspension</h3>
-          <ul>
-            <li>Front-Shock: Olihns</li>
-            <li>Rear-Shock: misc</li>
-            <li>Sag Setting: 3cm</li>
-          </ul>
-        </div>
-
-        <div id="chassis" class="specifications-list">
-          <h3>Chassis</h3>
-          <ul>
-            <li>Wheelbase: 300cm</li>
-            <li>Seat Height: 87cm</li>
-            <li>Wet Weight: 399lbs</li>
-          </ul>
-
-        </div>
+      <div id="chassis" class="specifications-list">
+        <h3>Chassis</h3>
+        <ul>
+          <li>Wheelbase: 300cm</li>
+          <li>Seat Height: 87cm</li>
+          <li>Wet Weight: 399lbs</li>
+        </ul>
 
       </div>
-    </section>
 
-    <section id="maintenance-schedule">
-      <div class="container-fluid maintenance-schedule-container container">
-        <h2>Specifications</h2>
+    </div>
+  </section>
 
-        <div id="annual maintenance" class="specifications-list">
-          <h3>Annual Maintenance</h3>
-          <ul>
-            <li>Grease Bearings</li>
-            <li>Clean and grease suspension linkage</li>
-          </ul>
-        </div>
+  <section id="maintenance-schedule">
+    <div class="container-fluid maintenance-schedule-container container">
+      <h2>Maintenance Schedule</h2>
 
-        <div id="regular-maintenance" class="specifications-list">
-          <h3>Regular Maintenance</h3>
-          <ul>
-            <li>Oil Changes: every 5000km</li>
-            <li>Valve Clearance check: every 6000km</li>
-          </ul>
-        </div>
-
+      <div id="annual maintenance" class="specifications-list">
+        <h3>Annual Maintenance</h3>
+        <ul>
+          <li>Grease Bearings</li>
+          <li>Clean and grease suspension linkage</li>
+        </ul>
       </div>
-    </section>
 
-      
+      <div id="regular-maintenance" class="specifications-list">
+        <h3>Regular Maintenance</h3>
+        <ul>
+          <li>Oil Changes: every 5000km</li>
+          <li>Valve Clearance check: every 6000km</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="trouble-shooting">
+    <div class="container-fluid maintenance-schedule-container container">
+      <h2>Trouble Shooting</h2>
+      <div id="common-issues" class="specifications-list">
+        <h3>Common Issues</h3>
+        <ul>
+          <li>Overheating</li>
+          <li>Stalling</li>
+          <li>Smoking</li>
+          <li>Running Rough</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
 
 
-    <!-- Footer -->
 
-    <footer id="footer">
 
-      <p>© Copyright 2021 Moto Maintainer</p>
+  <!-- Footer -->
 
-    </footer>
+  <footer id="footer">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <p>© Copyright 2021 Moto Maintainer</p>
 
-  </body>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+  <script src="js/scripts.js"></script>
+
+</body>
 
 </html>

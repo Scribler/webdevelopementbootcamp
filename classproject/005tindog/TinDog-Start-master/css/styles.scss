@@ -67,6 +67,11 @@ br { // same height and magin as 'p'
 .nav-item {
     padding: 0 15px;
 }
+// this is the same as the above style (but is more specific.
+// You can combine MULTIPLE elements when you do this.
+// li.nav-item {
+//     padding: 0 15px;
+// }
 
 .nav-link {
     font-size: .9rem;
