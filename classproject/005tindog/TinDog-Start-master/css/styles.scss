@@ -4,15 +4,9 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-color: whitesmoke;
-}
-
-section {
-    // background-color: darkgray;
-    background-color: whitesmoke;
+    color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,12 +25,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
+.section-large-padding {
+    padding: 10% 0;
+}
+
+.section-small-padding {
+    padding: 5% 0;
+}
+
 .pricing-card-heading {
     font-size: 1.7rem;
     line-height: 1.5;
 }
 
-
+// SECTIONS //
+.colored-section {
+    color: whitesmoke;
+    background-color: #ff4c68;
+}
+.white-section {
+    color: rgb(20, 20, 20);
+    background-color: whitesmoke;
+}
 //
 // UNIVERSAL STYLES
 //
@@ -81,11 +91,6 @@ br { // same height and magin as 'p'
 //
 // Title Bar
 //
-
-#title {
-    background-color: #ff4c68;
-    color: whitesmoke;
-}
 
 .container-fluid {
     padding: 3% 15% 7%;
@@ -169,11 +174,11 @@ br { // same height and magin as 'p'
 #testimonial-carousel {
     background-color: #ef8172;
     text-align: center;
-    color: #fff;
+    padding: 100px 0;
 }
 
 .carousel-item {
-    padding: 7% 18%;
+    padding: 0% 18%;
 }
 
 .testimonial-image {
@@ -191,16 +196,14 @@ br { // same height and magin as 'p'
 //
 
 #press {
-    background-color: #ff4c68;
-    // background-color: #ef8172;
     text-align: center;
-    padding: 3% 0 1%;
+    padding: 5% 0;
 }
 
 .press-logo {
     width: 15%;
     // padding: 0 20px;
-    margin: 20px 20px 50px;
+    // margin: 20px 20px 50px;
 }
 
 //
@@ -209,12 +212,16 @@ br { // same height and magin as 'p'
 
 #pricing {
     background-color: whitesmoke;
-    padding: 100px;
+    padding: 10% 0;
     text-align: center;
 }
 
+.pricing-header {
+    margin-bottom: 6%;
+}
+
 .pricing-column {
-    padding: 3% 2%;
+    padding: 0% 2%;
 }
 
 .pricing-price {
@@ -232,10 +239,9 @@ br { // same height and magin as 'p'
 //
 
 #cta {
-    background-color: #ff4c68;
     text-align: center;
-    color: white;
-    padding: 10% 15%;
+    padding-left:  15%;
+    padding-right: 15%;
 
     .cta-button {
         margin: 3% 1%;
@@ -258,7 +264,6 @@ br { // same height and magin as 'p'
     background-color: whitesmoke;
     font-size: 60%;
     text-align: center;
-    padding: 5% 0;
 
     p {
         margin: 0;
