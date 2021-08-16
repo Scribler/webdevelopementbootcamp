@@ -1,0 +1,91 @@
+// colors
+
+
+
+// universal styles
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    text-align: center;
+}
+
+section {
+    // padding: 50px 5px;
+    border-top: 1px solid black;
+}
+
+// headings
+
+.section-header {
+    padding: 50px 0 50px;
+}
+
+.card-heading {
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    padding: 20px 0;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.card-heading > h3 {
+    display: inline-block;
+}
+
+.red-heading {
+    color: red;
+}
+
+.yellow-heading {
+    color: yellow;
+}
+
+.green-heading {
+    color: green;
+}
+
+.blue-heading {
+    color: blue;
+}
+
+.purple-heading {
+    color: purple;
+}
+
+
+// brand
+
+// color-feel
+#color-feel {
+}
+
+.color-cards {
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.color-cards > div {
+    text-align: left;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 15px;
+    flex: 0 0 220px;
+    margin: 10px 10px;
+
+    ul {
+        padding: 25px 0px 25px 50px;
+    }
+}
