@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html,
@@ -20,9 +21,10 @@ section {
 .card-heading {
   text-align: center;
   background-color: #cccccc;
+  background-color: #f7f7f7;
   padding: 20px 0;
   border-radius: 15px 15px 0 0;
-  border-bottom: 1px solid #a3a3a3;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .card-heading > h3 {
@@ -34,7 +36,7 @@ section {
 }
 
 .yellow-heading {
-  color: yellow;
+  color: #979700;
 }
 
 .green-heading {
@@ -47,6 +49,21 @@ section {
 
 .purple-heading {
   color: purple;
+}
+
+.card-button {
+  display: block;
+  border: 1px solid #dfdfdf;
+  padding: 12px 24px;
+  width: 200px;
+  background-color: cadetblue;
+  border-radius: 15px;
+  align-self: center;
+  margin-bottom: 35px;
+}
+
+.card-button:hover {
+  background-color: teal;
 }
 
 .color-cards {
@@ -63,14 +80,29 @@ section {
 }
 
 .color-cards > div {
-  text-align: left;
-  border: 1px solid #a3a3a3;
+  border: 1px solid #dfdfdf;
   border-radius: 15px;
-  flex: 0 0 220px;
+  flex: 1 0 280px;
   margin: 10px 10px;
+  max-width: 400px;
 }
 
 .color-cards > div ul {
-  padding: 25px 0px 25px 50px;
+  padding: 25px 0px 25px 0px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.choosing-colors {
+  display: flex;
+}
+
+.choosing-colors-list {
+  padding: 50px 1%;
+}
+
+footer {
+  padding: 1%;
+  background-color: teal;
 }
 /*# sourceMappingURL=style.css.map */

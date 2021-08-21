@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html,
@@ -29,12 +30,13 @@ section {
 .card-heading {
     text-align: center;
     background-color: rgb(204, 204, 204);
+    background-color: #f7f7f7;
     padding: 20px 0;
     border-radius: 15px 15px 0 0;
-    border-bottom: 1px solid rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(223, 223, 223);
 }
 
-.card-heading > h3 {
+.card-heading>h3 {
     display: inline-block;
 }
 
@@ -43,7 +45,7 @@ section {
 }
 
 .yellow-heading {
-    color: yellow;
+    color: rgb(151, 151, 0);
 }
 
 .green-heading {
@@ -58,12 +60,25 @@ section {
     color: purple;
 }
 
+// buttons
+.card-button {
+    display: block;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 12px 24px;
+    width: 200px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    align-self: center;
+    margin-bottom: 35px;
+}
+.card-button:hover {
+    background-color: teal;
+}
 
 // brand
 
 // color-feel
-#color-feel {
-}
+#color-feel {}
 
 .color-cards {
     margin: 5px 0;
@@ -78,14 +93,35 @@ section {
     align-content: center;
 }
 
-.color-cards > div {
-    text-align: left;
-    border: 1px solid rgb(163, 163, 163);
+.color-cards>div {
+    border: 1px solid rgb(223, 223, 223);
     border-radius: 15px;
-    flex: 0 0 220px;
+    flex: 1 0 280px;
     margin: 10px 10px;
+    max-width: 400px;
 
     ul {
-        padding: 25px 0px 25px 50px;
+        padding: 25px 0px 25px 0px;
+        list-style-type: none;
+        font-weight: bold;
+        
     }
+}
+
+// choosing-colors
+
+.choosing-colors {
+    display: flex;
+}
+
+.choosing-colors-list {
+    // text-align: left;
+    padding: 50px 1%;
+}
+
+// footer
+
+footer {
+    padding: 1%;
+    background-color: teal;
 }
