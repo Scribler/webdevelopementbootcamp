@@ -6,6 +6,10 @@
 // #83A834
 // rgb(245, 245, 245);
 // universal styles
+:root {
+    --font-size-base: 5rem;
+    --font-size-two: calc(2* var(--font-size-base));
+}
 
 * {
     margin: 0;
@@ -110,18 +114,20 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     h1 {
         position: relative;
         z-index: 1;
-        color: white;
-        font-size: 3rem;
+        color: rgb(245, 245, 245);
+        // font-size: 3rem;
+        font-size: var(--font-size-base);
     }
 }
 
 // color-feel
 .color-feel {
     z-index: 2;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
 }
 
 .color-cards {

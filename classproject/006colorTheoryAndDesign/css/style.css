@@ -1,3 +1,8 @@
+:root {
+  --font-size-base: 5rem;
+  --font-size-two: calc(2* var(--font-size-base));
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -99,8 +104,8 @@ section {
 .brand h1 {
   position: relative;
   z-index: 1;
-  color: white;
-  font-size: 3rem;
+  color: whitesmoke;
+  font-size: var(--font-size-base);
 }
 
 .color-feel {
