@@ -1,0 +1,43 @@
+/* universal styles */
+* {
+  /* padding: 0; */
+  /* margin: 0; */
+  /* box-sizing: border-box; */
+  /* font-size: 16px; */
+  font-family: Arial;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#main_heading {
+  font-size: 2.5rem;
+  color: blue;
+}
+.menu-list {
+  align-self: flex-end;
+}
+.menu_list_items {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu_list_items a {
+  text-decoration: none;
+  color: black;
+}
+.menu_list_items a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* main */
+
+
+/* footer */
+.footer {
+  color: green;
+}
