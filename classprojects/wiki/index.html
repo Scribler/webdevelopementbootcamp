@@ -5,29 +5,104 @@
   <meta http-equiv="Content-Type" content="text/html;charset=Win-1251">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
   <link rel="stylesheet" href="css/style.css" media="all">
   <title>Web Dev Notes</title>
 </head>
 <body>
   <header>
-    <h1 id="main_heading">Web Developement Notes/Wiki?</h1>
+    <h1 id="header_heading">Web Developement Notes/Wiki?</h1>
     <ul class="menu_list">
       <li class="menu_list_items"><a href="#">HTML</a></li>
-      <li class="menu_list_items"><a href="#">CSS</li>
-      <li class="menu_list_items"><a href="#">JS</li>
-      <li class="menu_list_items"><a href="#">SEARCH</li>
+      <li class="menu_list_items"><a href="#">CSS</a></li>
+      <li class="menu_list_items"><a href="#">JS</a></li>
+      <li class="menu_list_items"><a href="#">SEARCH</a></li>
     </ul>
   </header>
+
   <main>
-    <br>
-    <section id="aligning_header">
-      <h2 class="heading_two">Aligning The Header Contents</h2>
-      <p>figure out flexbox and grid</p>
-      <br>
-      <p>That means, before you go on with anything else, you are actually going to figure out all of the in's and out's of flexbox and grid, and you are going to make solid examples of them in this section of your site for later reference.</p>
-      <br>
-      <h3>Steps to Learn in this section</h3>
+    <section id="missing_semester">
+      <h1 class="heading_one">Missing Semester</h1>
+      <div class="command_line">
+        <h2 class="heading_two">The Command Line</h2>
+        <ul class="command_line-ul">
+          <li class="command_line-li">
+            <h3 class="heading_three">echo</h3>
+            <p> &gt print - the following command</p>
+          </li>
+          <li class="command_line-li">
+            <h3 class="heading_three">date</h3>
+            <p> &gt print - date</p>
+          </li>
+          <li class="command_line-li">
+            <h3 class="heading_three">pwd</h3>
+            <p> &gt print - working directory</p>
+          </li>
+          <li class="command_line-li">
+            <h3 class="heading_three"></h3>
+            <p> &gt </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+
+
+    <section id=html_css>
+      <h1 class="heading_one">HTML/CSS</h1>
+
+      <div class="content_section">
+        <h2 class="heading_two">HTML Selectors</h2>
+
+        <ul class=html_css-list>
+          <li><strong>Headings:</strong> <span class="example-text">h1,h2,h3...</span></li>
+          <li><strong>Paragraphs:</strong> <span class="example-text">&ltp&gt<strong>paragraph</strong>&ltp\&gt </span></li>
+          <li><strong>Images:</strong> <span class="example-text">&ltimg src=&quotsource.img&quot alt=&quotalternate-text&quot/&gt</span></li>
+          <li><strong>Anchor Tags:</strong> <span class="example-text">&lta href=&quotlink.com&quot target=&quot_blank&quot&gt<strong>link text or image</strong>&lta/&gt</span></li>
+          <!-- <li></li> -->
+          <!-- <li></li> -->
+          <!-- <li></li> -->
+          <!-- <li></li> -->
+        </ul>
+      </div>
+
+      <br/>
+
+      <div class="content_section">
+        <h2 class="heading_two">Forms and Inputs</h2>
+        <form>
+          <label for="textbox">Textbox: </label>
+          <input name="textbox" type="text" placeholder="placeholder goes here">
+          <br>
+          <label for="day">Date: </label>
+          <input id="day" type="date" name="day">
+          <br>
+          <label for="selection-one">Selection 1</label>
+          <input id="selection-one" type="radio" name="selection">
+          <br>
+          <label for="selection-two">Selection 2</label>
+          <input id="selection-two" type="radio" name="selection">
+          <br>
+          <label for="selection-three">Selection 3</label>
+          <input id="selection-three" type="radio" name="selection">
+          <br>
+          <lable for="button">Button</lable>
+          <button name="button" type="submit">Submit Button</button>
+
+        </form>
+
+      </div>
+    </section>
+
+
+
+
+
+    <section id="flexbox_grid">
+      <h2 class="heading_one">Flexbox And Grid</h2>
+      <h3 class="heading_two">Steps to Learn in this section</h3>
       <ul>
         <li>Flexbox</li>
         <li>Grid</li>
@@ -35,9 +110,8 @@
         <li>Practice building in a scrap area untill you can consistantly build up a layout.</li>
         <li>Add Pictures etc, and make a slick header, menu, and sidebar.</li>
       </ul>
-      
     </section>
-    <br>
+
 
 
   </main>
@@ -46,7 +120,6 @@
     <div class="footer">footer</div>
     
   </footer>
-
-  
-</body>
+  <script src="js/script.js"></script>
+</body
 </html>
