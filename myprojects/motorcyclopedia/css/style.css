@@ -1,0 +1,73 @@
+/*  */
+/* colors */
+/*  */
+
+
+
+
+
+/*  */
+/* universal styles */
+/*  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: Arial;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+section {
+  padding: .3rem;
+}
+
+
+
+/* headings */
+.brand {
+  font-size: 3rem;
+  padding: .5rem;
+  color: teal;
+}
+
+.heading-one {
+  font-size: 2.5rem;
+}
+.heading-two {
+  font-size: 2rem;
+}
+.heading-three {
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
