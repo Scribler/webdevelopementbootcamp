@@ -1,6 +1,6 @@
 // Colors
 $black: #000;
-$white: #fff;
+$white: #ededed;
 $grey: #ddd;
 $darkpurple: #86009e;
 $lightpurple: #ab00ca;
@@ -13,6 +13,7 @@ $lightpurple: #ab00ca;
 * {
   box-sizing: border-box;
   font-size: 16px;
+  background-color: $white;
 }
 html, body {
   min-width: 100vw;
@@ -20,7 +21,7 @@ html, body {
 }
 
 // HEADER / NAV BAR
-header {
+.main-header {
   display: flex;
   width: 100vw;
   border-bottom: 1px solid #000;
@@ -37,6 +38,9 @@ nav {
     display: inline-block;
   }
 }
+td>input {
+  width: 8rem;
+}
 
 
 
@@ -51,6 +55,8 @@ nav {
 .heading-two {
   font-size: 2.8rem;
   text-align: center;
+  border-bottom: 1px solid $black;
+  border-bottom: 80px;
 }
 .heading-three {
   font-size: 2.5rem;
