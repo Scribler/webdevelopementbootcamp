@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Testing</title>
   <link rel="stylesheet" href="css/style.css" media="all">
+  <link rel="shortcut icon" type="image/x-icon" href="imgs/circleme.png">
 </head>
+
 <body>
   <header>
     <h1 class="brand">Testing</h1>
@@ -17,13 +20,33 @@
     </nav>
   </header>
 
+
   <main>
-    <div class="box1">1</div>
-    <div class="box2">2</div>
-    <div class="box3">3</div>
-    <div class="box4">4</div>
-    <div class="box5">5</div>
-    <div class="box6">6</div>
+    <section class="flexbox">
+      <article class="flex-article">
+        <h1 class="heading-one">Flex and Order</h1>
+        <ul>
+          <h3 class="heading-three">Notes</h3>
+          <li>When applying an order to flex elements <em>ALL</em> elements must have an order applied to them otherwise
+            they will automatically preceed all of the ordered elements no matter the number applied to them</li>
+          <br>
+          <li>flex: [grow: 0 || 1] [shringk: 0 || 1] [flex-basis: number || auto] <em>EX. flex: 0 1 auto;</em></li>
+          <br>
+          <li><em>Flexbox Axis Diagram</em></li>
+          <img class="flex-diagram" src="imgs/00-basic-terminology.svg" alt="flexbox axis diagram">
+
+        </ul>
+        <br>
+        <div class="flex-section_flex">
+          <div class="box1">1</div>
+          <div class="box2">2</div>
+          <div class="box3">3</div>
+          <div class="box4">4</div>
+          <div class="box5">5</div>
+          <div class="box6">6</div>
+        </div>
+      </article>
+    </section>
 
   </main>
 
@@ -31,4 +54,5 @@
     footer stuff goes here
   </footer>
 </body>
+
 </html>

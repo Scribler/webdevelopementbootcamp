@@ -1,0 +1,98 @@
+// Colors
+$black: #000;
+$white: #fff;
+$grey: #ddd;
+$darkpurple: #86009e;
+$lightpurple: #ab00ca;
+
+
+
+
+// Universal
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+html, body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+// HEADER / NAV BAR
+header {
+  display: flex;
+  width: 100vw;
+  border-bottom: 1px solid #000;
+  h1 {
+    font-size: 2rem;
+    display: inline-block;
+  }
+}
+nav {
+  align-self: center;
+  margin-left: auto;
+  padding: 10px 50px 10px 10px;
+  .nav-item {
+    display: inline-block;
+  }
+}
+
+
+
+
+// Headings
+.hero-heading {
+  font-size: 2rem;
+}
+.heading-one {
+  font-size: 3rem;
+}
+.heading-two {
+  font-size: 2.8rem;
+  text-align: center;
+}
+.heading-three {
+  font-size: 2.5rem;
+}
+
+
+
+// TABLES
+
+table, th, tr, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+}
+
+table {
+  caption {
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  th, td {
+    padding: 10px;
+    width: 8rem;
+  }
+  th {
+    text-align: left;
+  }
+  tr:first-child {
+    th {
+      text-align: center;
+    }
+  }
+}
+
+th:nth-child(odd) {
+    background-color: $darkpurple;
+}
+th:nth-child(even) {
+    background-color: $lightpurple;
+}
+tr:nth-child(even) {
+  th {
+    background-color: $lightpurple;
+  }
+}

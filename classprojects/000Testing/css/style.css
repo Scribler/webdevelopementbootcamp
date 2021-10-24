@@ -1,56 +1,98 @@
-/*  */
-/* colors */
-/*  */
-color1 = blue
-
-
-
-/*  */
-/* universal styles */
-/*  */
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-size: 16px;
 }
 
-body,html {
+body,
+html {
   width: 100%;
   height: 100%;
 }
 
-/* headings */
 .brand {
   font-size: 4rem;
   padding: 20px;
   text-align: center;
 }
 
-/*  */
-/* flex / grid testing area */
-/*  */
-main {
-  height: 50vh;
+.heading-one {
+  font-size: 3rem;
+  padding: .5rem 0;
+}
+
+.heading-two {
+  font-size: 2.3rem;
+  padding: .5rem 0;
+}
+
+.heading-three {
+  font-size: 2rem;
+  padding: .5rem 0;
+  color: beige;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+ul li {
+  margin-left: 30px;
+}
+
+.flexbox {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-article {
+  background-color: beige;
+}
+
+.flex-article .heading-one {
+  text-align: center;
+}
+
+.flex-section_flex {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+}
+
+.flex-diagram {
+  width: 30rem;
+  height: auto;
 }
 
 .box1 {
   background-color: blue;
+  flex: 4 0 auto;
+  order: 1;
 }
+
 .box2 {
   background-color: green;
+  flex: 1 0 auto;
+  order: 2;
 }
+
 .box3 {
   background-color: yellow;
+  flex: 1 0 auto;
+  order: 1;
 }
+
 .box4 {
   background-color: orange;
+  flex: 1 0 auto;
 }
+
 .box5 {
   background-color: purple;
+  flex: 1 0 auto;
 }
+
 .box6 {
   background-color: red;
+  flex: 1 0 auto;
 }
+/*# sourceMappingURL=style.css.map */
