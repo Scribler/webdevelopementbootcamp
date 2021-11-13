@@ -1,0 +1,2 @@
+!#/bin/sh
+nvim -Oc "normal @w" -c "colorscheme gruvbox" index.html js/script.js css/_base.scss css/_colors.scss css/_components.scss css/_layout.scss css/_main.scss
