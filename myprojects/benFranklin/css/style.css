@@ -94,6 +94,13 @@ tr:nth-child(even) th {
   background-color: #ab00ca;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
 td > input {
   width: 8rem;
 }
